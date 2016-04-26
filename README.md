@@ -10,15 +10,15 @@
 
 * * *
 
-## Dossier
+## Dossier CSS
 
-Sur base des psd et des ressources graphiques de deux pages d'un design web, vous allez réaliser l'intégration HTML/CSS du site d'une compagnie fictive nommée "TwoBytes Consulting".
+Sur base des psd et des ressources graphiques de deux pages d’un design web, vous allez réaliser l’intégration HTML/CSS du site d’une compagnie fictive nommée « TwoBytes Consulting ».
 
 ### Ressources
 
 #### • html
 
-Les deux pages, [`index.html`](./index.html) et [`about-us.html`](./about-us.html), contiennent déjà tout le code nécéssaire pour la réalisation de ce travail.
+Les deux pages, [`index.html`](./index.html) et [`about-us.html`](./about-us.html), contiennent déjà tout le code HTML nécéssaire pour la réalisation de ce travail.
 
 Ce code **ne devra pas** être modifié : vous ne pouvez ni enlevez ni ajouter aucune balise ou contenu.
 
@@ -31,7 +31,7 @@ Le design de base a été réalisé par [Peter Finlan](http://peterfinlan.com) e
 #### • images
 
 Tous les éléments graphiques du psd ont été pré-découpés et se trouvent dans le dossier [`images`](./images).  
-Vous n'aurez besoin d'aucune autre image, et chaque image de ce dossier sera utilisée dans votre feuille de styles.
+Vous n’aurez besoin d’aucune autre image, et chaque image de ce dossier sera utilisée dans votre feuille de styles.
 
 #### • typos
 
@@ -43,7 +43,7 @@ Le fichier [`css/styles.css`](./css/styles.css), qui contiendra vos styles, cont
 
 Sur base de toutes les ressources à votre disposition, votre objectif est de compléter le fichier [`css/styles.css`](./css/styles.css) pour que le rendu final des deux pages soient les mêmes que dans les psd.
 
-Veillez à bien organiser et indenter votre code, qu'il soit facile à relire et corriger.
+Veillez à bien organiser et indenter votre code, qu’il soit facile à relire et corriger.
 
 Vous rendrez ce dossier le jour de votre examen de CSS, dans un dossier qui comprendra : 
 
@@ -51,6 +51,7 @@ Vous rendrez ce dossier le jour de votre examen de CSS, dans un dossier qui comp
 * votre dossier `images`
 * votre dossier `css`
 
-Le dossier sera nommé comme suit : **[groupe]-[nom]-prénom** (exemple: `2184-delnatte-pierre-antoine`).
+Le dossier sera nommé comme suit : **[groupe]-[nom]-[prénom]-dossierCSS** (exemple: `2184-delnatte-pierre-antoine-dossierCSS`).
 
 Bon travail.
+
