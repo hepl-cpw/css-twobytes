@@ -9,13 +9,13 @@
     <body>
         <header>
             <div class="inner">
-                <h1>
+                <h1 role="heading" aria-level="1">
                     <a href="#">
                         <img src="images/logo.png" alt="Two Bytes Consulting" />
                     </a>
                 </h1>
                 <nav>
-                    <h2>Main navigation</h2>
+                    <h2 role="heading" aria-level="2">Main Navigation</h2>
                     <ul>
                         <li>
                             <a href="index.html">Home</a>
@@ -40,77 +40,80 @@
             </div>
         </header>
         <main>
-            <h2>
-                <span>About us…</span>
-                <strong>Two Bytes Consulting, a great company.</strong>
-            </h2>
+            <section>
+                <h2 role="heading" aria-level="2">
+                    <span>About Us…</span>
+                    Two Bytes Consulting, a Great Company
+                </h2>
 
-            <figure>
-                <img src="images/about-us-photo.jpg" alt="A fantastic blurry-sepia computer photo" />
-                <figcaption>Yes, we like blurry-sepia images...</figcaption>
-            </figure>
+                <figure>
+                    <img src="images/about-us-photo.jpg" alt="A fantastic blurry-sepia computer photo" />
+                    <figcaption>Yes, we like blurry-sepia images…</figcaption>
+                </figure>
 
-            <p>
-                <strong>Yes, we like to make long and strong sentences that looks like Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</strong>
-            </p>
+                <p>
+                    Yes, we like to make <strong>long and strong</strong> sentences that looks like Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+                </p>
 
-            <blockquote cite="http://9gag.com">
-                <p>The trouble with quotes on the Internet is that you can never know if they are genuine.</p>
-                <footer>Abraham Lincoln</footer>
-            </blockquote>
+                <blockquote cite="http://9gag.com">
+                    <p>The trouble with quotes on the Internet is that you can never know if they are genuine.</p>
+                    <cite>Abraham Lincoln</cite>
+                </blockquote>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin <u>porttitor</u>, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras <em>vestibulum</em> bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante <strong>ipsum primis</strong> in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras <em>vestibulum</em> bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante <strong>ipsum primis</strong> in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh.</p>
 
-            <table>
-                <caption>Our scoreboard for the last few years.</caption>
-                <thead>
-                    <tr>
-                        <td></td>
-                        <th>2012</th>
-                        <th>2013</th>
-                        <th>2014</th>
-                        <th>2015</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Cases</th>
-                        <td>24</td>
-                        <td>32</td>
-                        <td>42</td>
-                        <td>54</td>
-                    </tr>
-                    <tr>
-                        <th>Wins</th>
-                        <td>12</td>
-                        <td>24</td>
-                        <td>36</td>
-                        <td>54</td>
-                    </tr>
-                    <tr>
-                        <th>Losses</th>
-                        <td>12</td>
-                        <td>8</td>
-                        <td>6</td>
-                        <td>-</td>
-                    </tr>
-                </tbody>
-            </table>
+                <table>
+                    <caption>Our scoreboard for the last few years</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <th>2012</th>
+                            <th>2013</th>
+                            <th>2014</th>
+                            <th>2015</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Cases</th>
+                            <td>24</td>
+                            <td>32</td>
+                            <td>42</td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <th>Wins</th>
+                            <td>12</td>
+                            <td>24</td>
+                            <td>36</td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <th>Losses</th>
+                            <td>12</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <p>Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                <p>Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+            </section>
         </main>
         <section id="newsletter">
             <div class="inner">
-                <h2>Subscribe to our Job Seeker Mailing List</h2>
+                <h2 role="heading" aria-level="2">Subscribe to Our Job Seeker Mailing List</h2>
 
                 <form action="#" method="post">
                     <fieldset>
+                        <legend>Subscribing</legend>
                         <div class="subscribe-email">
-                            <label for="subscribe-email">Your email</label>
-                            <input type="email" name="email" id="subscribe-email" placeholder="Enter your Email Address" />
+                            <label for="subscribe-email">Your Email</label>
+                            <input type="email" name="email" id="subscribe-email" placeholder="Enter your email address" />
                         </div>
                         <div class="subscribe-submit">
-                            <button type="submit">Send</button>
+                            <button type="submit">Subscribe</button>
                         </div>
                     </fieldset>
                 </form>

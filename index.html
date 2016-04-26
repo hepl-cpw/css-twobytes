@@ -9,13 +9,13 @@
     <body class="home">
         <header>
             <div class="inner">
-                <h1>
+                <h1 role="heading" aria-level="1">
                     <a href="#">
                         <img src="images/logo.png" alt="Two Bytes Consulting" />
                     </a>
                 </h1>
                 <nav>
-                    <h2>Main navigation</h2>
+                    <h2 role="heading" aria-level="2">Main Navigation</h2>
                     <ul>
                         <li class="active">
                             <a href="index.html">Home</a>
@@ -39,9 +39,10 @@
                 </nav>
                 <form action="#" method="post" class="search">
                     <fieldset>
+                        <legend>I'm looking for…</legend>
                         <div class="search-query">
-                            <label for="query">I'm looking for…</label>
-                            <input type="text" name="query" id="query" placeholder="Enter a job Description" />
+                            <label for="query">Job Description</label>
+                            <input type="text" name="query" id="query" placeholder="Enter a job description" />
                         </div>
                         <div class="search-options">
                             <label>
@@ -62,7 +63,7 @@
         </header>
         <section id="introduction">
             <div class="inner">
-                <h2>
+                <h2 role="heading" aria-level="2">
                     <span>We're leaders in</span>
                     <strong>Creative Digital Recruitment</strong>
                 </h2>
@@ -77,16 +78,17 @@
         </section>
         <section id="newsletter">
             <div class="inner">
-                <h2>Subscribe to our Job Seeker Mailing List</h2>
+                <h2>Subscribe to Our Job Seeker Mailing List</h2>
 
                 <form action="#" method="post">
                     <fieldset>
+                        <legend>Subscribing</legend>
                         <div class="subscribe-email">
-                            <label for="subscribe-email">Your email</label>
-                            <input type="email" name="email" id="subscribe-email" placeholder="Enter your Email Address" />
+                            <label for="subscribe-email">Your Email</label>
+                            <input type="email" name="email" id="subscribe-email" placeholder="Enter your email address" />
                         </div>
                         <div class="subscribe-submit">
-                            <button type="submit">Send</button>
+                            <button type="submit">Subscribe</button>
                         </div>
                     </fieldset>
                 </form>
