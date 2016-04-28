@@ -7,12 +7,12 @@
         <meta name="keywords" content="digital, consulting, career, talent, Australia">
         <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body class="home">
+    <body class="home" itemscope itemtype="http://schema.org/Corporation">
         <header>
             <div class="inner">
                 <h1 role="heading" aria-level="1">
                     <a href="#">
-                        <img src="images/logo.png" alt="Two Bytes Consulting" width="133" height="44" />
+                        <img itemprop="logo" src="images/logo.png" alt="Two Bytes Consulting" width="133" height="44" />
                     </a>
                 </h1>
                 <nav>
@@ -38,22 +38,22 @@
                         </li>
                     </ul>
                 </nav>
-                <form action="#" method="post" class="search" role="search">
+                <form action="#" method="post" class="search">
                     <fieldset>
                         <legend>I'm looking for…</legend>
-                        <div class="search-query">
+                        <div class="search-query" role="search">
                             <label for="query">Job Description</label>
                             <input type="text" name="query" id="query" placeholder="Enter a job description" />
                         </div>
                         <div class="search-options">
-                            <label>
-                                <input type="checkbox" name="options[]" value="full-time" />
-                                <span>Full Time</span>
-                            </label>
-                            <label>
-                                <input type="checkbox" name="options[]" value="part-time" />
-                                <span>Part Time / Casual / Freelance</span>
-                            </label>
+                            <div>
+                                <input type="checkbox" name="options[]" id="options-full-time" value="full-time" />
+                                <label for="options-full-time">Full Time</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="options[]" id="options-part-time" value="part-time" />
+                                <label for="options-part-time">Part Time / Casual / Freelance</label>
+                            </div>
                         </div>
                         <div class="search-submit">
                             <button type="submit">Search</button>
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </section>
-        <section id="newsletter">
+        <aside id="newsletter">
             <div class="inner">
                 <h2>Subscribe to Our Job Seeker Mailing List</h2>
 
@@ -94,13 +94,14 @@
                     </fieldset>
                 </form>
             </div>
-        </section>
+        </aside>
         <footer>
             <p>
-                <a href="mailto:hello@twobytes.com.au" class="footer-contact">hello@twobytes.com.au</a>
+                <a itemprop="email" href="mailto:hello@twobytes.com.au" class="footer-contact">hello@twobytes.com.au</a>
+                <meta itemprop="url" content="http://www.twobytes.com.au">
             </p>
             <p class="footer-copy">
-                Copyright &copy; 2014 Two Bytes Consulting.
+                Copyright &copy; 2014 <span itemprop="legalName">Two Bytes Consulting</span>.
                 <a href="#">Terms &amp; Policies.</a>
             </p>
         </footer>

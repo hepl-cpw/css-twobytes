@@ -20,7 +20,7 @@ Sur base des psd et des ressources graphiques de deux pages d’un design web, v
 
 Les deux pages, [`index.html`](./index.html) et [`about-us.html`](./about-us.html), contiennent déjà tout le code HTML nécéssaire pour la réalisation de ce travail.
 
-Ce code **ne devra pas** être modifié : vous ne pouvez ni enlevez ni ajouter aucune balise ou contenu.
+Ce code **ne devra pas** être modifié : vous ne pouvez ni enlever ni ajouter aucune balise ou contenu.
 
 #### • psd
 

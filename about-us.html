@@ -7,12 +7,12 @@
         <meta name="keywords" content="digital, consulting, career, talent, Australia">
         <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/Corporation">
         <header>
             <div class="inner">
                 <h1 role="heading" aria-level="1">
                     <a href="#">
-                        <img src="images/logo.png" alt="Two Bytes Consulting" width="133" height="44" />
+                        <img itemprop="logo" src="images/logo.png" alt="Two Bytes Consulting" width="133" height="44" />
                     </a>
                 </h1>
                 <nav>
@@ -41,10 +41,10 @@
             </div>
         </header>
         <main>
-            <section>
+            <article>
                 <h2 role="heading" aria-level="2">
                     <span>About Us…</span>
-                    Two Bytes Consulting, a Great Company
+                    <span itemprop="legalName">Two Bytes Consulting</span>, a Great Company
                 </h2>
 
                 <figure>
@@ -100,9 +100,9 @@
                 </table>
 
                 <p>Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-            </section>
+            </article>
         </main>
-        <section id="newsletter">
+        <aside id="newsletter">
             <div class="inner">
                 <h2 role="heading" aria-level="2">Subscribe to Our Job Seeker Mailing List</h2>
 
@@ -119,10 +119,11 @@
                     </fieldset>
                 </form>
             </div>
-        </section>
+        </aside>
         <footer>
             <p>
-                <a href="mailto:hello@twobytes.com.au" class="footer-contact">hello@twobytes.com.au</a>
+                <a itemprop="email" href="mailto:hello@twobytes.com.au" class="footer-contact">hello@twobytes.com.au</a>
+                <meta itemprop="url" content="http://www.twobytes.com.au">
             </p>
             <p class="footer-copy">
                 Copyright &copy; 2014 Two Bytes Consulting.
