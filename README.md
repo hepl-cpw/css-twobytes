@@ -16,24 +16,24 @@ Sur base des psd et des ressources graphiques de deux pages d’un design web, v
 
 ### Ressources
 
-#### • html
+#### html
 
 Les deux pages, [`index.html`](./index.html) et [`about-us.html`](./about-us.html), contiennent déjà tout le code HTML nécéssaire pour la réalisation de ce travail.
 
 Ce code **ne devra pas** être modifié : vous ne pouvez ni enlever ni ajouter aucune balise ou contenu.
 
-#### • psd
+#### psd
 
 Les deux psd sont disponibles dans le dossier [`sources`](./sources).
 
 Le design de base a été réalisé par [Peter Finlan](http://peterfinlan.com) et est [disponible gratuitement sur dribbble](https://dribbble.com/shots/1461343-TwoBytes-Free-PSD-Website-Template), mais nous avons apporté quelques changements à celui-ci dans le cadre du dossier. Seuls les deux psd dans le dossier `sources` comptent pour ce travail.
 
-#### • images
+#### images
 
 Tous les éléments graphiques du psd ont été pré-découpés et se trouvent dans le dossier [`images`](./images).  
 Vous n’aurez besoin d’aucune autre image, et chaque image de ce dossier sera utilisée dans votre feuille de styles.
 
-#### • typos
+#### typos
 
 Les deux psd utilisent les typos [Open Sans](https://www.fontsquirrel.com/fonts/open-sans) et [Amaranth](https://www.fontsquirrel.com/fonts/amaranth).
 
@@ -41,17 +41,16 @@ Le fichier [`css/styles.css`](./css/styles.css), qui contiendra vos styles, cont
 
 ### Consignes
 
-Sur base de toutes les ressources à votre disposition, votre objectif est de compléter le fichier [`css/styles.css`](./css/styles.css) pour que le rendu final des deux pages soient les mêmes que dans les psd.
+Sur base de toutes les ressources à votre disposition, votre objectif est de compléter le fichier [`css/styles.css`](./css/styles.css) pour que le rendu final des deux pages soit le même que dans les psd.
 
 Veillez à bien organiser et indenter votre code, qu’il soit facile à relire et corriger.
 
 Vous rendrez ce dossier le jour de votre examen de CSS, dans un dossier qui comprendra : 
 
-* vos fichier `index.html` et `about-us.html`
+* vos fichiers `index.html` et `about-us.html`
 * votre dossier `images`
 * votre dossier `css`
 
 Le dossier sera nommé comme suit : **[groupe]-[nom]-[prénom]-dossierCSS** (exemple: `2184-delnatte-pierre-antoine-dossierCSS`).
 
 Bon travail.
-
